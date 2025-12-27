@@ -21,8 +21,8 @@ jobs:
           java-version: '17'
 
       - name: Grant execute permission for gradlew
-        working-directory: android-project
-        run: chmod +x android-project/gradlew
+        working-directory:.
+        run: chmod +x ./gradlew
 
       - name: Build Debug APK
         working-directory:.
